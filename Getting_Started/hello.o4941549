@@ -1,0 +1,32 @@
+Hello world from task 0 of 16
+Hello world from task 1 of 16
+Hello world from task 3 of 16
+Hello world from task 5 of 16
+Hello world from task 6 of 16
+Hello world from task 2 of 16
+Hello world from task 7 of 16
+Hello world from task 4 of 16
+Hello world from task 10 of 16
+Hello world from task 12 of 16
+Hello world from task 15 of 16
+Hello world from task 13 of 16
+Hello world from task 14 of 16
+Hello world from task 9 of 16
+Hello world from task 8 of 16
+Hello world from task 11 of 16
+
+
++------------------------------------------+ 
+| PALMETTO CLUSTER PBS RESOURCES REQUESTED | 
++------------------------------------------+ 
+
+mem=4gb,ncpus=16,walltime=00:10:00
+
+
++-------------------------------------+ 
+| PALMETTO CLUSTER PBS RESOURCES USED | 
++-------------------------------------+ 
+
+cpupercent=0,cput=00:00:00,mem=652kb,ncpus=16,vmem=12612kb,walltime=00:00:01
+
+    

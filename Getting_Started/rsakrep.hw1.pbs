@@ -1,0 +1,13 @@
+#!/bin/bash           
+#PBS -N hello      
+#PBS -l select=2:ncpus=8:mpiprocs=8:mem=2gb:interconnect=mx
+#PBS -l walltime=00:10:00  
+#PBS -j oe   
+
+source /etc/profile.d/modules.sh 
+module purge 
+module add gcc/4.8.1 openmpi/1.6.4
+
+cd /home/rsakrep/ece473/assignment1_08_18_2016
+
+mpiexec -n 16 ./rsakrep.hw1
