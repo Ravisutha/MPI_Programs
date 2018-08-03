@@ -1,0 +1,40 @@
+Before Floyd's algorithm
+After Floyd's algorithm
+Output file name is file.seq
+Before Floyd's algorithm
+After Floyd's algorithm
+Output file name is file.seq
+Matrix size is 4*4
+Before Floyd's algorithm
+Time taken to compute = 0.000056
+Time taken overall = 0.006240
+After Floyd's algorithm
+Output file name is file.seq
+Before Floyd's algorithm
+After Floyd's algorithm
+Output file name is file.seq
+buffer[0] = 0
+     0      3      2     27 
+buffer[0] = 32
+    32      0     34     59 
+buffer[0] = 33
+    33      1      0     25 
+buffer[0] = 93
+    93     61     95      0 
+
+ 
+ 
++------------------------------------------+ 
+| PALMETTO CLUSTER PBS RESOURCES REQUESTED | 
++------------------------------------------+ 
+ 
+mem=4gb,ncpus=16,walltime=00:10:00
+ 
+ 
++-------------------------------------+ 
+| PALMETTO CLUSTER PBS RESOURCES USED | 
++-------------------------------------+ 
+ 
+cpupercent=0,cput=00:00:00,mem=640kb,ncpus=16,vmem=12612kb,walltime=00:00:00
+ 
+ 

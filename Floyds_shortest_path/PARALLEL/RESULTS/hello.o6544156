@@ -1,0 +1,19 @@
+Matrix size is 2000*2000
+Time taken to compute = 2.320309
+Time taken overall = 2.528621
+ 
+ 
++------------------------------------------+ 
+| PALMETTO CLUSTER PBS RESOURCES REQUESTED | 
++------------------------------------------+ 
+ 
+mem=8gb,ncpus=64,walltime=00:10:00
+ 
+ 
++-------------------------------------+ 
+| PALMETTO CLUSTER PBS RESOURCES USED | 
++-------------------------------------+ 
+ 
+cpupercent=1399,cput=00:00:42,mem=640kb,ncpus=64,vmem=12612kb,walltime=00:00:03
+ 
+ 

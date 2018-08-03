@@ -1,0 +1,19 @@
+Time taken for the computing floyd's alg = 162.119671
+Writing the output to file.seq
+Write successful
+ 
+ 
++------------------------------------------+ 
+| PALMETTO CLUSTER PBS RESOURCES REQUESTED | 
++------------------------------------------+ 
+ 
+mem=4gb,ncpus=16,walltime=00:10:00
+ 
+ 
++-------------------------------------+ 
+| PALMETTO CLUSTER PBS RESOURCES USED | 
++-------------------------------------+ 
+ 
+cpupercent=100,cput=00:02:43,mem=38552kb,ncpus=16,vmem=400584kb,walltime=00:02:43
+ 
+ 
