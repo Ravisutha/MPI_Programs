@@ -1,0 +1,17 @@
+Time taken for 1000 matrix is 0.000000Difference is -2147483648.000000
+ 
+ 
++------------------------------------------+ 
+| PALMETTO CLUSTER PBS RESOURCES REQUESTED | 
++------------------------------------------+ 
+ 
+mem=8gb,ncpus=64,walltime=00:10:00
+ 
+ 
++-------------------------------------+ 
+| PALMETTO CLUSTER PBS RESOURCES USED | 
++-------------------------------------+ 
+ 
+cpupercent=90,cput=00:00:09,mem=636kb,ncpus=64,vmem=12612kb,walltime=00:00:10
+ 
+ 

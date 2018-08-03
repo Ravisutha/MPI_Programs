@@ -1,0 +1,19 @@
+Number of CPUs used = 1
+Average time taken is 183.685142
+Final output difference: 0.000000
+ 
+ 
++------------------------------------------+ 
+| PALMETTO CLUSTER PBS RESOURCES REQUESTED | 
++------------------------------------------+ 
+ 
+mem=8gb,ncpus=64,walltime=00:10:00
+ 
+ 
++-------------------------------------+ 
+| PALMETTO CLUSTER PBS RESOURCES USED | 
++-------------------------------------+ 
+ 
+cpupercent=100,cput=00:03:04,mem=69392kb,ncpus=64,vmem=430660kb,walltime=00:03:05
+ 
+ 

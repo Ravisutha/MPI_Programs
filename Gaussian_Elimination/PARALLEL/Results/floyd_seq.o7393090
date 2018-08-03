@@ -1,0 +1,40 @@
+rank = 0, total_rows = 5
+
+
+
+
+
+Average time taken is 0.000087
+rank = 1, total_rows = 5
+
+
+
+
+
+b[0] = 88.000000
+b[1] = 47.000000
+b[2] = 116.000000
+b[3] = 108.000000
+b[4] = 6.000000
+b[5] = 88.000000
+b[6] = 146.000000
+b[7] = 24.000000
+b[8] = 137.000000
+b[9] = 137.000000
+Final output difference: 0.000000
+ 
+ 
++------------------------------------------+ 
+| PALMETTO CLUSTER PBS RESOURCES REQUESTED | 
++------------------------------------------+ 
+ 
+mem=4gb,ncpus=16,walltime=00:10:00
+ 
+ 
++-------------------------------------+ 
+| PALMETTO CLUSTER PBS RESOURCES USED | 
++-------------------------------------+ 
+ 
+cpupercent=0,cput=00:00:00,mem=636kb,ncpus=16,vmem=12612kb,walltime=00:00:01
+ 
+ 

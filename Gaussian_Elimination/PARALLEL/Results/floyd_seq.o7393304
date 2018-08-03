@@ -1,0 +1,105 @@
+[node0777:18532] Error in mx_open_endpoint (error Busy)
+[node0777:18517] Error in mx_open_endpoint (error Busy)
+[node0777:18536] Error in mx_open_endpoint (error Busy)
+[node0777:18530] Error in mx_open_endpoint (error Busy)
+[node0777:18535] Error in mx_open_endpoint (error Busy)
+[node0777:18519] Error in mx_open_endpoint (error Busy)
+[node0777:18542] Error in mx_open_endpoint (error Busy)
+[node0777:18531] Error in mx_open_endpoint (error Busy)
+[node0777:18541] Error in mx_open_endpoint (error Busy)
+[node0777:18545] Error in mx_open_endpoint (error Busy)
+[node0777:18538] Error in mx_open_endpoint (error Busy)
+[node0777:18548] Error in mx_open_endpoint (error Busy)
+[node0777:18522] Error in mx_open_endpoint (error Busy)
+[node0777:18540] Error in mx_open_endpoint (error Busy)
+[node0777:18537] Error in mx_open_endpoint (error Busy)
+[node0777:18547] Error in mx_open_endpoint (error Busy)
+--------------------------------------------------------------------------
+No available pml components were found!
+
+This means that there are no components of this type installed on your
+system or all the components reported that they could not be used.
+
+This is a fatal error; your MPI process is likely to abort.  Check the
+output of the "ompi_info" command and ensure that components of this
+type are available on your system.  You may also wish to check the
+value of the "component_path" MCA parameter and ensure that it has at
+least one directory that contains valid MCA components.
+--------------------------------------------------------------------------
+[node0777:18536] PML cm cannot be selected
+[node0777:18517] PML cm cannot be selected
+[node0777:18530] PML cm cannot be selected
+[node0777:18532] PML cm cannot be selected
+[node0777:18542] PML cm cannot be selected
+[node0770:27987] Error in mx_open_endpoint (error Busy)
+[node0770:27988] Error in mx_open_endpoint (error Busy)
+[node0770:27988] PML cm cannot be selected
+[node0770:27989] Error in mx_open_endpoint (error Busy)
+[node0770:27989] PML cm cannot be selected
+[node0770:27994] Error in mx_open_endpoint (error Busy)
+[node0770:27994] PML cm cannot be selected
+[node0770:27996] Error in mx_open_endpoint (error Busy)
+[node0770:27996] PML cm cannot be selected
+[node0770:27997] Error in mx_open_endpoint (error Busy)
+[node0770:27997] PML cm cannot be selected
+[node0770:28000] Error in mx_open_endpoint (error Busy)
+[node0770:28000] PML cm cannot be selected
+[node0770:28002] Error in mx_open_endpoint (error Busy)
+[node0770:28002] PML cm cannot be selected
+[node0770:28004] Error in mx_open_endpoint (error Busy)
+[node0770:28004] PML cm cannot be selected
+[node0770:28005] Error in mx_open_endpoint (error Busy)
+[node0770:28005] PML cm cannot be selected
+[node0770:28006] Error in mx_open_endpoint (error Busy)
+[node0770:28006] PML cm cannot be selected
+[node0770:28007] Error in mx_open_endpoint (error Busy)
+[node0770:28007] PML cm cannot be selected
+[node0770:28008] Error in mx_open_endpoint (error Busy)
+[node0770:28008] PML cm cannot be selected
+[node0770:28014] Error in mx_open_endpoint (error Busy)
+[node0770:28014] PML cm cannot be selected
+[node0777:18545] PML cm cannot be selected
+[node0777:18519] PML cm cannot be selected
+[node0777:18541] PML cm cannot be selected
+[node0777:18540] PML cm cannot be selected
+[node0777:18531] PML cm cannot be selected
+[node0777:18538] PML cm cannot be selected
+[node0777:18548] PML cm cannot be selected
+[node0777:18537] PML cm cannot be selected
+[node0777:18535] PML cm cannot be selected
+[node0777:18547] PML cm cannot be selected
+[node0777:18522] PML cm cannot be selected
+--------------------------------------------------------------------------
+mpiexec has exited due to process rank 8 with PID 18517 on
+node node0777.palmetto.clemson.edu exiting improperly. There are two reasons this could occur:
+
+1. this process did not call "init" before exiting, but others in
+the job did. This can cause a job to hang indefinitely while it waits
+for all processes to call "init". By rule, if one process calls "init",
+then ALL processes must call "init" prior to termination.
+
+2. this process called "init", but exited without calling "finalize".
+By rule, all processes that call "init" MUST call "finalize" prior to
+exiting or it will be considered an "abnormal termination"
+
+This may have caused other processes in the application to be
+terminated by signals sent by mpiexec (as reported here).
+--------------------------------------------------------------------------
+[node0770:27984] 28 more processes have sent help message help-mca-base.txt / find-available:none-found
+[node0770:27984] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+ 
+ 
++------------------------------------------+ 
+| PALMETTO CLUSTER PBS RESOURCES REQUESTED | 
++------------------------------------------+ 
+ 
+mem=4gb,ncpus=16,walltime=00:10:00
+ 
+ 
++-------------------------------------+ 
+| PALMETTO CLUSTER PBS RESOURCES USED | 
++-------------------------------------+ 
+ 
+cpupercent=200,cput=00:00:02,mem=636kb,ncpus=16,vmem=12612kb,walltime=00:00:01
+ 
+ 
