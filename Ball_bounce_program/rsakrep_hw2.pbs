@@ -1,0 +1,12 @@
+#!/bin/bash           
+#PBS -N process_ring_04_nodes    
+#PBS -l select=2:ncpus=16:mpiprocs=16:mem=2gb:interconnect=mx
+#PBS -l walltime=00:10:00  
+#PBS -j oe   
+
+source /etc/profile.d/modules.sh 
+module purge 
+module add gcc/4.8.1 openmpi/1.6.4
+
+cd /home/rsakrep/ece473/assignment3_09_27_16
+mpiexec -n 8 /home/rsakrep/ece473/assignment3_09_27_16/final.out

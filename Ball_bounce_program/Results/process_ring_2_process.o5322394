@@ -1,0 +1,18 @@
+Rank[0] has my_num = 83, sum = 166
+Rank[1] has my_num = 83, sum = 166
+
+
++------------------------------------------+ 
+| PALMETTO CLUSTER PBS RESOURCES REQUESTED | 
++------------------------------------------+ 
+
+mem=4gb,ncpus=32,walltime=00:10:00
+
+
++-------------------------------------+ 
+| PALMETTO CLUSTER PBS RESOURCES USED | 
++-------------------------------------+ 
+
+cpupercent=0,cput=00:00:00,mem=632kb,ncpus=32,vmem=12612kb,walltime=00:00:00
+
+    
